@@ -1,0 +1,11 @@
+#item-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.itemHader {
+    font-size: 25px;
+    color: darkgray;
+    padding: 10px;
+}
