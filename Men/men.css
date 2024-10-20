@@ -9,3 +9,8 @@
     color: darkgray;
     padding: 10px;
 }
+#T_Shirt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
