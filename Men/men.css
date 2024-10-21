@@ -14,3 +14,13 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+#Shirt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#Watch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

@@ -1,7 +1,8 @@
 
 Pants();
 T_Shirt();
-
+Shirt();
+Watch();
 
 // --------------------------Pants------------------------------------
 
@@ -67,6 +68,74 @@ addT_ShirtItems.forEach(addT_ShirtItems => {
         </div>`
 });
 T_Shirt.innerHTML = innerHTML;
+
+// console.log(Add.innerHTML);
+}
+
+// --------------------------Shirt----------------------------
+
+function Shirt() {
+    const Shirt = document.getElementById('Shirt');
+// console.log(Add.innerHTML); 
+
+let innerHTML = '';
+addShirtItems.forEach(addShirtItems => {
+    
+    innerHTML += `<div class="category_items">
+            <div>
+                <a href="#"><img class="sale_item" src="${addShirtItems.image}"></a>
+            </div>
+            <div class="rating">
+                ${addShirtItems.rating.rate} ⭐ | ${addShirtItems.rating.count}
+            </div>
+            <div class="company-name">${addShirtItems.name}</div>
+            <div class="item-name">${addShirtItems.company}</div>
+            <div class="price">
+                <span class="current-price">Tk ${addShirtItems.newprice}</span>
+                <span class="original-price">Tk ${addShirtItems.oldprice}</span>
+                <span class="discount">(${addShirtItems.dicount}% Loss)</span>
+            </div>
+            <div class="Button_add">
+                <button class ="buy_button">Add to Cart</button>
+                <button class ="Wishlist_button">Wishlist</button>
+            </div>
+        </div>`
+});
+Shirt.innerHTML = innerHTML;
+
+// console.log(Add.innerHTML);
+}
+
+// --------------------------Watch----------------------------
+
+function Watch() {
+    const Watch = document.getElementById('Watch');
+// console.log(Add.innerHTML); 
+
+let innerHTML = '';
+addwatchItems.forEach(addwatchItems => {
+    
+    innerHTML += `<div class="category_items">
+            <div>
+                <a href="#"><img class="sale_item" src="${addwatchItems.image}"></a>
+            </div>
+            <div class="rating">
+                ${addwatchItems.rating.rate} ⭐ | ${addwatchItems.rating.count}
+            </div>
+            <div class="company-name">${addwatchItems.name}</div>
+            <div class="item-name">${addwatchItems.company}</div>
+            <div class="price">
+                <span class="current-price">Tk ${addwatchItems.newprice}</span>
+                <span class="original-price">Tk ${addwatchItems.oldprice}</span>
+                <span class="discount">(${addwatchItems.dicount}% Loss)</span>
+            </div>
+            <div class="Button_add">
+                <button class ="buy_button">Add to Cart</button>
+                <button class ="Wishlist_button">Wishlist</button>
+            </div>
+        </div>`
+});
+Watch.innerHTML = innerHTML;
 
 // console.log(Add.innerHTML);
 }
