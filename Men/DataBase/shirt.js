@@ -1,17 +1,19 @@
 const addShirtItems = [
     {
-    image: '../Men/image/shirt/1.png',
-    name: 'Arrad Ahmed',
-    company: 'Arrad Ahmed is a Good Boy. nsfdkjhg kgfhsdkgf sdfgsd fglisdfuhj sdfgsgsd ',
-    newprice: 3000,
-    oldprice: 100000,
-    dicount: 70,
-    rating: {
-        rate: 4.5,
-        count: 1400
+        id: '001',
+        image: '../Men/image/shirt/1.png',
+        name: 'Arrad Ahmed',
+        company: 'Arrad Ahmed is a Good Boy. nsfdkjhg kgfhsdkgf sdfgsd fglisdfuhj sdfgsgsd ',
+        newprice: 3000,
+        oldprice: 100000,
+        dicount: 70,
+        rating: {
+            rate: 4.5,
+            count: 1400
     }
 },
 {
+    id: '002',
     image: '../Men/image/shirt/2.png',
     name: ' Ahmed',
     company: 'He is a Good Boy.',
@@ -24,6 +26,7 @@ const addShirtItems = [
     }
 },
 {
+    id: '003',
     image: '../Men/image/shirt/3.png',
     name: 'ahkhas Ahmed',
     company: 'Asheis a Good girl\.',
@@ -36,6 +39,7 @@ const addShirtItems = [
     }
 },
 {
+    id: '004',
     image: '../Men/image/shirt/4.png',
     name: 'Arrad dfs',
     company: 'Arrad Ahmesdgsfdgh gdgedy.',
@@ -48,6 +52,7 @@ const addShirtItems = [
     }
 },
 {
+    id: '005',
     image: '../Men/image/shirt/5.png',
     name: 'Arradgrytuyu Ahmed',
     company: 'Arrad Ahmed iood Boy.',

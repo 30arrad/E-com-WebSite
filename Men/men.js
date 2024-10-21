@@ -4,6 +4,30 @@ T_Shirt();
 Shirt();
 Watch();
 
+
+// let bagItemsT_Shirt =[];
+
+// function addToCartT_Shirt(addT_ShirtItemsId) {
+//     bagItemsT_Shirt.push(addT_ShirtItemsId);
+//     addbagIcon_T_Shirt ();
+// }
+
+// function addbagIcon_T_Shirt () {
+//     let bagItemsCount_T_Shirt_Element = document.querySelector('.bag-item-count');
+//     bagItemsCount_T_Shirt_Element.innerText = bagItemsT_Shirt.length;
+// }
+
+let bagItems =[];
+
+function addToCart(addItemsId) {
+    bagItems.push(addItemsId);
+    addbagIcon ();
+}
+
+function addbagIcon () {
+    let bagItemsCountElement = document.querySelector('.bag-item-count');
+    bagItemsCountElement.innerText = bagItems.length;
+}
 // --------------------------Pants------------------------------------
 
 function Pants() {
@@ -28,7 +52,7 @@ addItems.forEach(addItems => {
                 <span class="discount">(${addItems.dicount}% Loss)</span>
             </div>
             <div class="Button_add">
-                <button class ="buy_button">Add to Cart</button>
+                <button class ="buy_button" onclick="addToCart(${addItems.id})"> Add to Cart</button>
                 <button class ="Wishlist_button">Wishlist</button>
             </div>
         </div>`
@@ -62,7 +86,7 @@ addT_ShirtItems.forEach(addT_ShirtItems => {
                 <span class="discount">(${addT_ShirtItems.dicount}% Loss)</span>
             </div>
             <div class="Button_add">
-                <button class ="buy_button">Add to Cart</button>
+                <button class ="buy_button onclick="addToCartT_Shirt(${addT_ShirtItems.id})">Add to Cart</button>
                 <button class ="Wishlist_button">Wishlist</button>
             </div>
         </div>`
