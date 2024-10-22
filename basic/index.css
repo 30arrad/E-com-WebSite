@@ -90,7 +90,7 @@ header {
 }
 
 
-.bag-item-count {
+.bag-item-count , .bag-item-count-wishlist {
     background-color: #f16565;
     white-space: nowrap;
     text-align: center;

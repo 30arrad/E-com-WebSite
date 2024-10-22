@@ -1,38 +1,3 @@
-#item-div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.itemHader {
-    font-size: 25px;
-    color: darkgray;
-    padding: 10px;
-}
-#T_Shirt {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-#Shirt {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-#Watch {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.old-price {
-    text-decoration: line-through;
-    color: #888;
-}
-
-.new-price {
-    color: #28a745;
-}
-
 
 /* Modal Styling */
 .modal {
@@ -50,13 +15,13 @@
 .modal-content {
     background-color: white;
     padding: 20px;
-    width: 500px;
+    width: 400px;
     border-radius: 5px;
     text-align: center;
 }
 
 .size-options {
-    margin: 50px 0;
+    margin: 20px 0;
 }
 
 .size-btn {
@@ -95,18 +60,4 @@
     right: 10px;
     font-size: 20px;
     cursor: pointer;
-}
-.modal_img {
-    width: 100px;
-    height: 100px;
-}
-
-.modalLeft {
-    padding: 0;
-}
-#modalLeft_L {
-    font-size: 12px;
-}
-#modalLeft_R {
-    text-align: center;
 }
