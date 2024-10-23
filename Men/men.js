@@ -1,5 +1,6 @@
 
 Pants();
+T_Shirt();
 Shirt();
 Watch();
 
@@ -7,17 +8,7 @@ Watch();
 // --------------------------Start Pants------------------------------------
 
 
-// let bagItems =[];
 
-// function addToCart(addItemsId) {
-//     bagItems.push(addItemsId);
-//     addbagIcon ();
-// }
-
-// function addbagIcon () {
-//     let bagItemsCountElement = document.querySelector('.bag-item-count');
-//     bagItemsCountElement.innerText = bagItems.length;
-// }
 
 // --------------------------Pants------------------------------------
 
