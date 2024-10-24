@@ -1,23 +1,31 @@
-let bagItems = [];
-Pants();
-disPlayIcon();
+let bagItems;
+onLoad();
 
-function addToBag (addItemsId) {
-bagItems.push(addItemsId);
-disPlayIcon();
-if (bagItems.length > 0) {
-    
-    bagItemsCountEle.style.visibility = 'visible';
-    bagItemsCountEle.innerText = bagItems.length;
-} else {
-    bagItemsCountEle.style.visibility = 'hidden';
+function onLoad() {
+  let bagItemsStr = localStorage.getItem('bagItems');
+  bagItems = bagItemsStr ? JSON.parse(bagItemsStr) : [];
+  displayItemsOnHomePage();
+  displayBagIcon();
 }
+
+function addToBag(itemId) {
+  bagItems.push(itemId);
+  localStorage.setItem('bagItems', JSON.stringify(bagItems));
+  displayBagIcon();
 }
-function disPlayIcon() {
-    let bagItemsCountEle = document.querySelector (".bag-item-count");
-    bagItemsCountEle.innerText = bagItems.length;
+
+function displayBagIcon() {
+  let bagItemCountElement = document.querySelector('.bag-item-count');
+  if (bagItems.length > 0) {
+    console.log('I am here');
+    bagItemCountElement.style.visibility = 'visible';
+    bagItemCountElement.innerText = bagItems.length;
+  } else {
+    bagItemCountElement.style.visibility = 'hidden';
+  }
 }
-function Pants() {
+
+function displayItemsOnHomePage() {
     const Add = document.getElementById('item-div');
 // console.log(Add.innerHTML); 
 
