@@ -16,6 +16,7 @@
     padding: 20px;
     width: 250px;
     margin: 10px;
+    border-radius: 10px;
 }
 
 .sale_item {
@@ -43,7 +44,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    text-align: center;
+    text-align: left;
 }
 .item-name {
     width: 100%;
@@ -65,7 +66,7 @@
     line-height: 15px;
     color: #282c3f;
     white-space: nowrap;
-    text-align: center;
+    text-align: left;
 }
 
 .Button_add {

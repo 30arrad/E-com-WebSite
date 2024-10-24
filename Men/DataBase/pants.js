@@ -6,10 +6,6 @@ const addItems = [
         newprice: 3000,
         oldprice: 100000,
         dicount: 70,
-        rating: {
-            rate: 4.5,
-            count: 1400
-    }
 },
 {
     id: '002',
@@ -18,10 +14,6 @@ const addItems = [
     newprice: 3000,
     oldprice: 100000,
     dicount: 70,
-    rating: {
-        rate: 4.5,
-        count: 1400
-    }
 },
 {
     id: '003',
@@ -30,10 +22,6 @@ const addItems = [
     newprice: 3000,
     oldprice: 100000,
     dicount: 70,
-    rating: {
-        rate: 4.5,
-        count: 1400
-    }
 },
 {
     id: '004',
@@ -42,10 +30,6 @@ const addItems = [
     newprice: 3000,
     oldprice: 100000,
     dicount: 70,
-    rating: {
-        rate: 4.5,
-        count: 1400
-    }
 },
 {
     id: '005',
@@ -54,9 +38,5 @@ const addItems = [
     newprice: 3000,
     oldprice: 100000,
     dicount: 70,
-    rating: {
-        rate: 4.5,
-        count: 1400
-    }
 },
 ];
